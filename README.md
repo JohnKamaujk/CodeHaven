@@ -78,7 +78,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
-* [![TypeScript][TypeScript.js]][TypeScript-url]
+* [![Typescript][TypeScript.com]][Typescript-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
