@@ -1,8 +1,5 @@
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon, BugAntIcon } from "@heroicons/react/24/solid";
-import Logo from "@/assets/Logo.png";
-import lio from "@/assets/lio.jpg";
-
 import Link from "@/components/navbar/Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
@@ -28,8 +25,8 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
           <div className={`${flexBetween} w-full gap-16`}>
             {/* {left side} */}
             <div className={`${flexBetween} gap-1`}>
-              <p className="text-2xl ">CodeHaven</p>
-              <BugAntIcon className="h-6 w-6 text-secondary-500" />
+              <p className="text-2xl text-secondary-400">CodeHaven</p>
+              <BugAntIcon className="h-6 w-6 text-secondary-400" />
             </div>
 
             {/* {right side} */}
