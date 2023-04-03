@@ -3,9 +3,10 @@ import ActionButton from "@/shared/ActionButton";
 import { SelectedPage } from "@/shared/types";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
-import SponsorForbes from "@/assets/SponsorForbes.png";
-import SponsorFortune from "@/assets/SponsorFortune.png";
+import Homey from "@/assets/Home.jpg";
+import Deloitte from "@/assets/Deloitte.png";
+import master from "@/assets/master.png";
+import Africa from "@/assets/Africa.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -19,9 +20,9 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section id="home" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
       {/* IMAGE AND MAIN HEADER */}
-      <motion.div>
+      <motion.div className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6">
         {/* MAIN HEADER */}
-        <div>
+        <div className="z-10 mt-32 md:basis-3/5">
           {/* HEADINGS */}
           <motion.div>
             <div className="relative">
@@ -62,19 +63,19 @@ const Home = ({ setSelectedPage }: Props) => {
         {/* IMAGE */}
         <div
           className="flex basis-3/5 justify-center md:z-10
-              md:ml-40 md:mt-16 md:justify-items-end"
+              md:ml-40 md:mt-10 md:justify-items-end"
         >
-          <img alt="home-pageGraphic" src={HomePageGraphic} />
+          <img alt="home-pageGraphic" src={Homey} />
         </div>
       </motion.div>
       {/* SPONSORS */}
       {isAboveMediumScreens && (
-        <div className="h-[150px] w-full bg-primary-100 py-10">
+        <div className="h-[130px] w-full bg-gray-200 py-10">
           <div className="mx-auto w-5/6">
-            <div className="flex w-3/5 items-center justify-between gap-8">
-              <img alt="redbull-sponsor" src={SponsorRedBull} />
-              <img alt="forbes-sponsor" src={SponsorForbes} />
-              <img alt="fortune-sponsor" src={SponsorFortune} />
+            <div className="w-5/5 flex items-center justify-between gap-8">
+              <img alt="redbull-sponsor" src={master} />
+              <img alt="forbes-sponsor" src={Deloitte} />
+              <img alt="fortune-sponsor" src={Africa} />
             </div>
           </div>
         </div>
