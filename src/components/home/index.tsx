@@ -1,9 +1,8 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/ActionButton";
 import { SelectedPage } from "@/shared/types";
-import HomePageText from "@/assets/HomePageText.png";
-import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import Homey from "@/assets/Home.jpg";
+import HomePageText from "@/assets/TextLogo.png";
+import Homeimg from "@/assets/Home.jpg";
 import Deloitte from "@/assets/Deloitte.png";
 import master from "@/assets/master.png";
 import Africa from "@/assets/Africa.png";
@@ -31,9 +30,8 @@ const Home = ({ setSelectedPage }: Props) => {
               </div>
             </div>
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+              Led by Elite Industry Experts . Our Immersive Learning Environment
+              Encourages Innovation, Creativity, and Problem-solving Skills.
             </p>
           </motion.div>
           {/* ACTIONS */}
@@ -65,7 +63,7 @@ const Home = ({ setSelectedPage }: Props) => {
           className="flex basis-3/5 justify-center md:z-10
               md:ml-40 md:mt-10 md:justify-items-end"
         >
-          <img alt="home-pageGraphic" src={Homey} />
+          <img alt="home-pageGraphic" src={Homeimg} />
         </div>
       </motion.div>
       {/* SPONSORS */}
