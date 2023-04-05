@@ -110,8 +110,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-primary-500">FIT</span>
+                    MANY STUDENTS ARE BECOMING{" "}
+                    <span className="text-primary-500">PROFESSIONALS</span>
                   </HText>
                 </motion.div>
               </div>
