@@ -1,4 +1,9 @@
 import Logo from "@/assets/Logo.png";
+import {
+  AiFillFacebook,
+  AiFillTwitterCircle,
+  AiFillInstagram,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -15,15 +20,22 @@ const Footer = () => {
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">Massa orci senectus</p>
-          <p className="my-5">Et gravida id et etiam</p>
-          <p>Ullamcorper vivamus</p>
+          <div className="my-5 flex items-center">
+            <AiFillFacebook className="mr-2" size={26} />
+            <p>Code_Haven1010s</p>
+          </div>
+          <div className="my-5 flex items-center">
+            <AiFillTwitterCircle className="mr-2" size={26} />
+            <p>CodingKnights</p>
+          </div>
+          <div className="flex items-center">
+            <AiFillInstagram className="mr-2" size={26} />
+            <p>CODE_HAVEN_901</p>
+          </div>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">
-            Nairobi, Moi Avenue Lane, 658-3245
-          </p>
+          <p className="my-5">Nairobi, Moi Avenue Lane, 658-3245</p>
           <p>(+254)745-419231</p>
         </div>
       </div>
