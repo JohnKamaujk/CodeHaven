@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "@/assets/Logo.png";
 import { Bars3Icon, XMarkIcon, BugAntIcon } from "@heroicons/react/24/solid";
 import Link from "@/components/navbar/Link";
 import { SelectedPage } from "@/shared/types";
@@ -24,12 +25,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* {left side} */}
-            <div className={`${flexBetween} gap-1`}>
+            {/* <div className={`${flexBetween} gap-1`}>
               <p className="font-montserrat text-2xl font-extrabold text-secondary-400">
                 CodeHaven
               </p>
               <BugAntIcon className="h-6 w-6 text-secondary-400" />
-            </div>
+            </div> */}
+            <img alt="logo" src={Logo} />
 
             {/* {right side} */}
             {isAboveMediumScreens ? (
