@@ -1,8 +1,8 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/ActionButton";
 import { SelectedPage } from "@/shared/types";
-import HomePageText from "@/assets/TextLogo.png";
-import Homeimg from "@/assets/Home.jpg";
+import HomePageText from "@/assets/HomeTxt.png";
+import Homeimg from "@/assets/Homegraphic.png";
 import Deloitte from "@/assets/Deloitte.png";
 import master from "@/assets/master.png";
 import Africa from "@/assets/Africa.png";

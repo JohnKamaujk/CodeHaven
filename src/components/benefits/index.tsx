@@ -2,7 +2,7 @@ import Benefit from "./Benefit";
 import { SelectedPage, BenefitType } from "@/shared/types";
 import HText from "@/shared/HText";
 import ActionButton from "@/shared/ActionButton";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import BenefitsPageGraphic from "@/assets/benefits.png";
 import { motion } from "framer-motion";
 import {
   HomeModernIcon,
