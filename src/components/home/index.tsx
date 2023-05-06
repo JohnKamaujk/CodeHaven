@@ -3,9 +3,9 @@ import ActionButton from "@/shared/ActionButton";
 import { SelectedPage } from "@/shared/types";
 import HomePageText from "@/assets/HomeTxt.png";
 import Homeimg from "@/assets/Homegraphic.png";
-import Deloitte from "@/assets/Deloitte.png";
-import master from "@/assets/master.png";
-import Africa from "@/assets/Africa.png";
+import Globe from "@/assets/globe.png";
+import Sword from "@/assets/sword.png";
+import Chess from "@/assets/chess.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -71,12 +71,12 @@ const Home = ({ setSelectedPage }: Props) => {
       </motion.div>
       {/* SPONSORS */}
       {isAboveMediumScreens && (
-        <div className="h-[130px] w-full bg-gray-200 py-10">
-          <div className="mx-auto w-5/6">
+        <div className="h-[120px] w-full bg-gray-200 py-10">
+          <div className="mx-auto w-5/6 ">
             <div className="w-5/5 flex items-center justify-between gap-8">
-              <img alt="redbull-sponsor" src={master} />
-              <img alt="forbes-sponsor" src={Deloitte} />
-              <img alt="fortune-sponsor" src={Africa} />
+              <img alt="redbull-sponsor" src={Sword} />
+              <img alt="forbes-sponsor" src={Globe} />
+              <img alt="fortune-sponsor" src={Chess} />
             </div>
           </div>
         </div>
