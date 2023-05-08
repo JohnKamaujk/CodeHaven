@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Our state-of-the-art bootcamp typically features spacious classrooms and computer labs, on-site resources, collaborative spacious workspaces, fitness and wellness amenities, and possibly on-site housing.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "Many Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "We prioritize classroom space to allow students to engage in hands-on learning and group projects. They may have comfortable seating, whiteboards, projectors, and other equipment needed for presentations.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert Technical Mentors",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Our technical mentors are knowledgeable in their field, possess excellent communication skills, are patient and supportive, have a passion for teaching, are able to adapt to different learning styles and are committed to their mentees' success",
   },
 ];
 
@@ -62,9 +62,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
         >
           <HText>MORE THAN JUST A BOOTCAMP</HText>
           <p className="my-5 text-sm">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We provide true
-            care into each and every member.
+            We provide world class software training, technical mentors and
+            classes to get you to your ultimate job with ease. We provide true
+            care into each and every student.
           </p>
         </motion.div>
         {/* BENEFITS */}
@@ -129,18 +129,20 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Our programs offer immersive and accelerated learning
+                experiences that focus on practical, in-demand skills and
+                provide students with hands-on training and real-world project
+                experience, which prepares them for success in their chosen
+                field. Additionally, We often have strong connections with
+                industry partners and employers, which can lead to job placement
+                opportunities and career networking.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Furthermore, We also have smaller class sizes and more
+                individualized attention from instructors and mentors, which can
+                help students identify their strengths and weaknesses and
+                receive personalized feedback and guidance on their learning
+                journey.
               </p>
             </motion.div>
 
